@@ -17,14 +17,45 @@
                     <view key="view" contentMode="scaleToFill" id="Gwb-Lw-Fbu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OUO-pz-7CV">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6c1-LX-Zs3">
+                                    <size key="itemSize" width="150" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCell" id="Irj-oD-p74" customClass="MenuCell" customModule="MonRestoDuMonde" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OUO-pz-7CV" firstAttribute="trailing" secondItem="npY-gw-JEe" secondAttribute="trailing" id="MKf-5J-zYm"/>
+                            <constraint firstItem="OUO-pz-7CV" firstAttribute="top" secondItem="npY-gw-JEe" secondAttribute="top" id="Mfl-1z-4eC"/>
+                            <constraint firstItem="OUO-pz-7CV" firstAttribute="bottom" secondItem="npY-gw-JEe" secondAttribute="bottom" id="fue-bt-2G2"/>
+                            <constraint firstItem="OUO-pz-7CV" firstAttribute="leading" secondItem="npY-gw-JEe" secondAttribute="leading" id="uqi-Ml-maG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="npY-gw-JEe"/>
                     </view>
                     <navigationItem key="navigationItem" id="NVR-Q1-7nb"/>
+                    <connections>
+                        <outlet property="collectionView" destination="OUO-pz-7CV" id="KOb-ze-y9W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mDt-dv-Dbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="831" y="-689"/>
+            <point key="canvasLocation" x="829.60000000000002" y="-689.5052473763119"/>
         </scene>
         <!--Mon Tab Bar-->
         <scene sceneID="yy7-xP-2VJ">

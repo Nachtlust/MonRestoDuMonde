@@ -16,6 +16,7 @@
 		0D70A288210F50C500367744 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A287210F50C500367744 /* MonTabBar.swift */; };
 		0D70A28B210F510B00367744 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A28A210F510B00367744 /* Constantes.swift */; };
 		0D70A28D210F528D00367744 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A28C210F528D00367744 /* MonNav.swift */; };
+		0D70A28F210F559C00367744 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A28E210F559C00367744 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0D70A287210F50C500367744 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		0D70A28A210F510B00367744 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		0D70A28C210F528D00367744 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
+		0D70A28E210F559C00367744 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		0D70A281210F4CD700367744 /* Vues */ = {
 			isa = PBXGroup;
 			children = (
+				0D70A28E210F559C00367744 /* MenuCell.swift */,
 			);
 			path = Vues;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D70A28F210F559C00367744 /* MenuCell.swift in Sources */,
 				0D70A28B210F510B00367744 /* Constantes.swift in Sources */,
 				0D70A288210F50C500367744 /* MonTabBar.swift in Sources */,
 				0D70A28D210F528D00367744 /* MonNav.swift in Sources */,
