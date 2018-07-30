@@ -13,6 +13,8 @@
 		0D70A276210F4A3700367744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D70A274210F4A3700367744 /* LaunchScreen.storyboard */; };
 		0D70A284210F4D6500367744 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A283210F4D6500367744 /* MenuController.swift */; };
 		0D70A286210F4D9400367744 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A285210F4D9400367744 /* ALaCarteController.swift */; };
+		0D70A288210F50C500367744 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A287210F50C500367744 /* MonTabBar.swift */; };
+		0D70A28B210F510B00367744 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A28A210F510B00367744 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0D70A277210F4A3700367744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D70A283210F4D6500367744 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		0D70A285210F4D9400367744 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
+		0D70A287210F50C500367744 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
+		0D70A28A210F510B00367744 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		0D70A25F210F4A3600367744 = {
 			isa = PBXGroup;
 			children = (
+				0D70A289210F50ED00367744 /* utilitaires */,
 				0D70A280210F4CBF00367744 /* Modeles */,
 				0D70A281210F4CD700367744 /* Vues */,
 				0D70A282210F4CDF00367744 /* Controlleurs */,
@@ -87,8 +92,17 @@
 			children = (
 				0D70A283210F4D6500367744 /* MenuController.swift */,
 				0D70A285210F4D9400367744 /* ALaCarteController.swift */,
+				0D70A287210F50C500367744 /* MonTabBar.swift */,
 			);
 			path = Controlleurs;
+			sourceTree = "<group>";
+		};
+		0D70A289210F50ED00367744 /* utilitaires */ = {
+			isa = PBXGroup;
+			children = (
+				0D70A28A210F510B00367744 /* Constantes.swift */,
+			);
+			path = utilitaires;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D70A28B210F510B00367744 /* Constantes.swift in Sources */,
+				0D70A288210F50C500367744 /* MonTabBar.swift in Sources */,
 				0D70A284210F4D6500367744 /* MenuController.swift in Sources */,
 				0D70A26C210F4A3600367744 /* AppDelegate.swift in Sources */,
 				0D70A286210F4D9400367744 /* ALaCarteController.swift in Sources */,
