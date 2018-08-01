@@ -12,16 +12,19 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     @IBOutlet weak var collectionView: UICollectionView!
     let cellID = "MenuCell"
+    var menus = [Menu]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Les Menus du Monde"
         collectionView.delegate = self
         collectionView.dataSource = self
+        menus = LesPlats.obtenir.lesMenus()
+        collectionView.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return menus.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
