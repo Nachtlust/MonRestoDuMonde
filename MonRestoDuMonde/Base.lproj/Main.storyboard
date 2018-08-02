@@ -141,16 +141,17 @@
         <scene sceneID="86G-tW-Nbe">
             <objects>
                 <tableViewController id="kvG-PT-9D8" customClass="ALaCarteController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fR8-fh-2zK">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fR8-fh-2zK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="platCell" rowHeight="193" id="EST-9O-rQf" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="platCell" rowHeight="193" id="EST-9O-rQf" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="193"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EST-9O-rQf" id="zeb-Be-7Uj">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="192.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="193"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JYo-Tv-gVd">
@@ -170,6 +171,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="JYo-Tv-gVd" firstAttribute="leading" secondItem="zeb-Be-7Uj" secondAttribute="leadingMargin" constant="10" id="72O-QZ-1nk"/>
                                         <constraint firstItem="vnw-21-2d0" firstAttribute="leading" secondItem="JYo-Tv-gVd" secondAttribute="trailing" constant="8" id="9hH-hK-Ck3"/>
@@ -178,6 +180,7 @@
                                         <constraint firstItem="vnw-21-2d0" firstAttribute="trailing" secondItem="zeb-Be-7Uj" secondAttribute="trailingMargin" id="rWH-nb-UNg"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="descDuPlat" destination="vnw-21-2d0" id="EGx-PS-tTk"/>
                                     <outlet property="imageDuPlat" destination="JYo-Tv-gVd" id="U3R-1F-eqM"/>
