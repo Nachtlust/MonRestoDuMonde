@@ -16,7 +16,7 @@ class Menu {
     
     var pays: String { return _pays }
     var image: UIImage { return _image }
-    var plat: [Plat] { return _plats }
+    var plats: [Plat] { return _plats }
     
     init(pays: String, image: UIImage) {
         self._pays = pays
