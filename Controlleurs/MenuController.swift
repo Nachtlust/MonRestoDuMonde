@@ -16,9 +16,16 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         title = "Les Menus du Monde"
+        
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        let vue = UIView(frame: collectionView.bounds)
+        vue.layer.addSublayer(Degrade())
+        collectionView.backgroundView = vue
+        
         menus = LesPlats.obtenir.lesMenus()
         collectionView.reloadData()
     }

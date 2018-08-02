@@ -16,10 +16,13 @@ class MenuCell: UICollectionViewCell {
     var menu: Menu!
     
     func miseEnPlace(menu: Menu) {
+        
         self.menu = menu
         vue.layer.cornerRadius = 10
         vue.layer.borderColor = NOIR.cgColor
         vue.layer.borderWidth = 1
+        vue.layer.backgroundColor = UIColor.white.cgColor
+        
         imageDuMenu.image = self.menu.image
         imageDuMenu.contentMode = .scaleAspectFill
         imageDuMenu.clipsToBounds = true
