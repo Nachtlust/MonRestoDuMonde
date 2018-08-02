@@ -20,6 +20,8 @@
 		0D70A291210F57FD00367744 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A290210F57FD00367744 /* Plat.swift */; };
 		0D70A293210F582B00367744 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70A292210F582B00367744 /* Enums.swift */; };
 		0DD02C5D2112FA93003A559D /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD02C5C2112FA93003A559D /* Degrade.swift */; };
+		0DD02C5F2112FEF2003A559D /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD02C5E2112FEF2003A559D /* PlatCell.swift */; };
+		0DD02C61211300AE003A559D /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD02C60211300AE003A559D /* ALaCarte.swift */; };
 		0DE52EBB2111DED600C66D9C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE52EBA2111DED600C66D9C /* Menu.swift */; };
 		0DE52EBD2111DFEC00C66D9C /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE52EBC2111DFEC00C66D9C /* LesPlats.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		0D70A290210F57FD00367744 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		0D70A292210F582B00367744 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		0DD02C5C2112FA93003A559D /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
+		0DD02C5E2112FEF2003A559D /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
+		0DD02C60211300AE003A559D /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		0DE52EBA2111DED600C66D9C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		0DE52EBC2111DFEC00C66D9C /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +98,7 @@
 				0D70A292210F582B00367744 /* Enums.swift */,
 				0DE52EBA2111DED600C66D9C /* Menu.swift */,
 				0DE52EBC2111DFEC00C66D9C /* LesPlats.swift */,
+				0DD02C60211300AE003A559D /* ALaCarte.swift */,
 			);
 			path = Modeles;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			children = (
 				0D70A28E210F559C00367744 /* MenuCell.swift */,
 				0DD02C5C2112FA93003A559D /* Degrade.swift */,
+				0DD02C5E2112FEF2003A559D /* PlatCell.swift */,
 			);
 			path = Vues;
 			sourceTree = "<group>";
@@ -200,8 +206,10 @@
 				0D70A28F210F559C00367744 /* MenuCell.swift in Sources */,
 				0D70A28B210F510B00367744 /* Constantes.swift in Sources */,
 				0D70A288210F50C500367744 /* MonTabBar.swift in Sources */,
+				0DD02C5F2112FEF2003A559D /* PlatCell.swift in Sources */,
 				0D70A28D210F528D00367744 /* MonNav.swift in Sources */,
 				0DD02C5D2112FA93003A559D /* Degrade.swift in Sources */,
+				0DD02C61211300AE003A559D /* ALaCarte.swift in Sources */,
 				0DE52EBB2111DED600C66D9C /* Menu.swift in Sources */,
 				0D70A284210F4D6500367744 /* MenuController.swift in Sources */,
 				0DE52EBD2111DFEC00C66D9C /* LesPlats.swift in Sources */,
